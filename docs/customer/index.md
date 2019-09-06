@@ -1,0 +1,30 @@
+## App 接口文档
+* CDP-/api/customer/
+    * 微信好友管理
+        * [获取微信好友或者删除列表-/api/customer/GetAccountCustomerList](GetAccountCustomerList.md) 
+        * [更新好友关系状态-/api/customer/UpdateAccountCustomerStatus](UpdateAccountCustomerStatus.md) 
+        * [更新好友关系表-/api/customer/UpdateAccountCustomer](UpdateAccountCustomer.md) 
+        * [更新微信好友信息-/api/customer/UpdateCustomer](UpdateCustomer.md) 
+        * [获取聊天记录-/api/customer/GetMessageList](GetMessageList.md) 
+        * [获取公司微信帐户列表-/api/customer/GetAccountList](GetAccountList.md) 
+    * 用户池管理
+        * [添加客户-/api/customer/AddCustomer](AddCustomer.md) 
+        * [更新未加粉信息-/api/customer/UpdateUnCanonCustomer](UpdateUnCanonCustomer.md) 
+        * [获取单个客户信息-/api/customer/GetCustomer](GetCustomer.md) 
+        * [获取客户信息列表-/api/customer/GetCustomerList](GetCustomerList.md)
+        * [获取自动加粉列表-/api/customer/GetUnpowderedList](GetUnpowderedList.md)
+        * [获取加粉记录列表-/api/customer/GetPowderRecordList](GetPowderRecordList.md)
+        * [主动加粉-/api/customer/AddAccountCustomer](AddAccountCustomer.md)
+        * [批量导入客户-/api/customer/ImportCustomers](ImportCustomer.md)
+        * [批量导出全部客户-/api/customer/ExportCustomers](ExportCustomers.md)
+    * 微信服务调用
+        * [添加聊天记录-/api/customer/AddMessage](AddMessage.md)
+        * [添加群聊天记录-/api/customer/AddMessageGroup](AddMessageGroup.md)
+        * [同步微信好友数据-/api/customer/UpdateAccountCustomerList](UpdateAccountCustomerList.md)
+    * 聚合码
+        * [添加聚合码-/api/customer/AddAggregateCode](AddAggregateCode.md)
+        * [获取单个聚合码-/api/customer/GetAggregateCode](GetAggregateCode.md)
+        * [更新聚合码信息-/api/customer/UpdateAggregateCode](UpdateAggregateCode.md)
+        * [获取随机群二维码-/api/customer/GetRandomCode](GetRandomCode.md)
+        * [获取聚合码活动列表-/api/customer/GetAggregateCodeList](GetAggregateCodeList.md)
+        
