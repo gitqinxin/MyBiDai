@@ -16,7 +16,7 @@ public class ServerHandler extends ChannelInboundHandlerAdapter implements BaseC
     }
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
-        System.err.println("channelInactive");
+        System.err.println("aaaaaaaaaaaaaaaa");
         super.channelInactive(ctx);
     }
     /**
